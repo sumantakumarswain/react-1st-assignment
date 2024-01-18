@@ -21,3 +21,14 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+favicon.ico                                         ted)
+logo192.png
+logo512.png
+manifest.json
+robots.txt
+
+
+package-lock.json
+package.json
+README.md

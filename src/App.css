@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#heading {
   color: white;
+  background-color: blue;
+  text-align: center;
+  padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+body {
+  background-color: aqua;
+  margin: 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#video-list-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+
+.video-card {
+  width: calc(25% - 40px);
+  border-radius: 10px;
+  text-align: center;
+  color: blueviolet;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}
+
+.channel-name {
+  margin-top: 10px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+.channel-logo {
+  padding-right: 20px;
+  padding-left: 10px;
+}
+
+.logo-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+
+}
+
+.thumbnail {
+  width: 100%;
+
+  border-radius: 15px;
+}
+
+.title {
+  height: 10px;
+  padding: 10px;
+  margin: 0px;
+  text-wrap:wrap;
+  overflow: hidden;
+  text-overflow:ellipsis ;
+}
+
+.description {
+  margin: 0px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  color: blue;
+
+
+}
+
+.likes {
+  color: rgb(226, 43, 156);
+  margin: 0px;
+
+}
+
+.views {
+  margin: 0px;
 }
